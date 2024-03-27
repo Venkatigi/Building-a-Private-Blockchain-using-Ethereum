@@ -96,7 +96,7 @@ geth --datadir "./data"  --port 30304 --bootnodes enode://{ YOUR_VALUE } --authr
 Note: Store the password in Ethereum\node1\data\password.txt
 
 ### Sender Node
-```
+```cmd
 geth --datadir "./data"  --port 30306 --bootnodes enode://{ YOUR_VALUE }  -authrpc.port 8546 --networkid { NETWORK_ID } --unlock { ADDRESS_NODE2 } --password { PASSWORD_FILE_WITH_EXTENSION }
 ```
 Note:  Store the password in Ethereum\node2\data\password.txt
